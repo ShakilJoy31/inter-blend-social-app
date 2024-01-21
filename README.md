@@ -63,7 +63,7 @@ When you contribute, you will create a branch in your own name. Then, you will p
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/masumrana0/
+   git clone https://github.com/masumrana0/Social-media-app-client.git
 ```
 
 2. Create a branch with your own name:
