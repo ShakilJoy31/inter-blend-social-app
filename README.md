@@ -66,13 +66,19 @@ When you contribute, you will create a branch in your own name. Then, you will p
    git clone https://github.com/masumrana0/Social-media-app-client.git
 ```
 
-2. Create a branch with your own name:
+2. Install Dependencies
+
+```bash
+   npm install
+```
+
+3. Create a branch with your own name:
 
 ```bash
    git branch your-name
 ```
 
-3.Contribute and push code:
+4.Contribute and push code:
 
 ```bash
 git push origin brach-name

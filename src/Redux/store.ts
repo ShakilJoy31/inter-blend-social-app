@@ -6,16 +6,16 @@
  *
  */
 
-import { configureStore, Middleware } from "@reduxjs/toolkit";
-import reducer from "./rootReducer";
-import { baseApi } from "./api/baseApi";
+import { configureStore, Middleware } from '@reduxjs/toolkit';
+import reducer from './rootReducer';
+import { baseApi } from './api/baseApi';
 
 // Extracting the middleware from baseApi
 const apiMiddleware = baseApi.middleware;
 
 export const store = configureStore({
   reducer,
-  middleware: (getDefaultMiddleware) =>
+  middleware: getDefaultMiddleware =>
     getDefaultMiddleware().concat(baseApi.middleware),
 });
 
